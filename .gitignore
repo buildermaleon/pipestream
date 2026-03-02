@@ -1,0 +1,23 @@
+# ===== SECRETS & SENSITIVE CONFIG =====
+.env
+.env.*
+!.env.example
+*.local
+
+# ===== RUST =====
+target/
+Cargo.lock
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== BUILD =====
+*.exe
+*.dll
+*.so
